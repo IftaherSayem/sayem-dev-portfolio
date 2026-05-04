@@ -2,7 +2,52 @@
     margin: 0px;
     padding: 0px;
 }
-body{
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+}
+
+.color-orange{
+    color: #FD6E0A;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+header{
     background-color: #FFF8F3;
-    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+
+nav{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2{
+    font-size: 45px;
+    font-weight: 900px;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 51px;
+    align-items: center;
+}
+
+nav .menu a{
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
 }
