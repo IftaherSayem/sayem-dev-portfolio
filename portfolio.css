@@ -134,7 +134,7 @@ nav .menu a{
 
 .about-info .info-card p{
     font-size: 20px;
-    line-height: 30px
+    line-height: 30px;
     color: #757575;
 }
 
@@ -157,6 +157,7 @@ nav .menu a{
 #skills .skill-box{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 24px;
 }
 
