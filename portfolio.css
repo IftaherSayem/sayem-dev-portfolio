@@ -221,3 +221,51 @@ hr{
     margin-bottom: 30px;
 }
 
+.text-center{
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
+
+footer .footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+
+.footer-container .footer-connect{
+    width: 562px;
+}
+.footer-container h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #181818
+}
+
+.footer-connect p{
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #474747;
+    line-height: 28px;
+}
+
+.icons a{
+    margin-right: 24px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea{
+    width: 461px;
+    padding: 18px 31px;
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 24px;
+    color: #757575;
+}
