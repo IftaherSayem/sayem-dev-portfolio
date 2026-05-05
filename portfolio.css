@@ -96,8 +96,8 @@ nav .menu a{
     color: #FD6E0A;
 }
 
-#about{
-    padding: 100px 130px 0px 130px;
+#about,#resume{
+    padding-top: 130px;
 }
 
 #about .about-container{
@@ -109,15 +109,14 @@ nav .menu a{
     padding: 131px 156px;
 }
 .section-heading{
-    max-width: 820px;
+    max-width: 827px;
     text-align: center;
     margin: 0 auto;
 }
 
 .section-heading h2{
     font-size: 35px;
-    font-weight: bold;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 .section-heading p{
@@ -183,3 +182,42 @@ nav .menu a{
     font-size: 16px;
     line-height: 28px;
 }
+
+#resume .resume-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+
+.card-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #474747;
+}
+
+.card-degree{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.card-uni{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+    color: #757575;
+}
+
+.card-details{
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 28px;
+    color: #757575;
+}
+
+hr{
+    margin-bottom: 30px;
+}
+
