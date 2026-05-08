@@ -303,8 +303,8 @@ footer .footer-container{
         text-align: center;
     }
     .section-heading h2 {
-        font-size: 30px;
-        line-height: 20px;
+        font-size: 25px;
+        padding: 0 26px;
     }
 
     .skill-box {
@@ -407,7 +407,7 @@ footer .footer-container{
         background-position: bottom right;
     }
 
-    /* *{
+    *{
         outline:1px solid red;
-    } */
+    }
 }
