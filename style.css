@@ -288,6 +288,24 @@ footer .footer-container{
     display: none !important;
 }
 
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:992px){
+    
+}
+
+@media screen and (max-width:768px){
+    #skills {
+        padding: 90px 0;
+    }
+
+    .skill-box {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width:576px){
     #skills {
         padding-top: 60px;
